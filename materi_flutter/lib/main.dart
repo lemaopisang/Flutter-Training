@@ -5,7 +5,9 @@ import 'pages/category_page.dart';
 import 'pages/detail_page.dart';
 import 'pages/popular_widget_detail_page.dart';
 import 'pages/stateful_widget_page.dart';
-import 'pages/stateless_widget_page.dart'; // Impor halaman stateless widget
+import 'pages/stateless_widget_page.dart';
+import 'pages/latihan_biodata_detail_page.dart';
+// import 'pages/';
 
 void main() {
   runApp(const MyApp());
@@ -48,6 +50,11 @@ class MyApp extends StatelessWidget {
             builder: (context) => const StatelessWidgetPage(),
           );
         }
+        if (settings.name == '/latihanBiodataDetail') {
+          return MaterialPageRoute(
+            builder: (context) => const LatihanBiodataDetailPage(),
+          );
+        }
         if (settings.name == '/detail') {
           final args = settings.arguments as Map<String, String>;
           return MaterialPageRoute(
@@ -55,6 +62,7 @@ class MyApp extends StatelessWidget {
             settings: settings,
           );
         }
+
         return null;
       },
     );

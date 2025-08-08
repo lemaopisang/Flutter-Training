@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(
-    MaterialApp(
+class LatihanBiodataDetailPage extends StatelessWidget {
+  const LatihanBiodataDetailPage({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
           title: const Text("About Me!"),
@@ -15,6 +18,6 @@ void main() {
             ),
         ),
       ),
-    ),
-  );
+    );
+  }
 }

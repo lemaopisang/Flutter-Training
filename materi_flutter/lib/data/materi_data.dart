@@ -13,9 +13,7 @@ final List<Map<String, dynamic>> materiData = [
   {
     'title': 'Bab 2: Stateless & Stateful Widget',
     'contents': [
-      {'title': 'Pengenalan Stateless Widget', 'body': 'Stateless widget adalah widget yang tidak memiliki state (keadaan) yang dapat berubah seiring waktu. Contoh: Text, Icon, Image.'},
       {'title': 'Contoh Stateless Widget', 'route': '/statelessWidgetDetail'}, 
-      {'title': 'Pengenalan Stateful Widget', 'body': 'Stateful widget adalah widget yang memiliki state (keadaan) yang dapat berubah secara dinamis. Contoh: Checkbox, Radio, TextField.'},
       {'title': 'Contoh Stateful Widget', 'route': '/statefulWidgetDetail'},
     ],
   },
@@ -23,7 +21,21 @@ final List<Map<String, dynamic>> materiData = [
     'title': 'Bab 3: Popular Widget',
     'contents': [
       {'title': 'Tentang Popular Widget', 'route': '/popularWidgetDetail'},
-      {'title': 'Container & Column Widget', 'body': 'Widget Container digunakan untuk menata widget. Widget Column digunakan untuk menata widget secara vertikal.'},
+    ],
+  },
+  {
+    'title': 'Latihan',
+    'contents': [
+      {'title': 'Latihan Membuat Aplikasi Biodata', 'route': '/latihanBiodataDetail'},
+      {'title': 'Latihan Membuat Aplikasi Popular Widget', 'route': '/latihanPopularWidget'},
+    ],
+  },
+  {
+    'title': 'Template',
+    'contents': [
+      {'title': 'template', 'body': 'template'},
+      {'title': 'template', 'body': 'template'},
+      {'title': 'template', 'body': 'template'},
     ],
   },
 ];
